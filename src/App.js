@@ -1,9 +1,11 @@
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import Navbar from './componnents/Navbar'
 function App() {
   return (
     <div className="App">
-    <h1>Portfolio Siripath Khotsri</h1> 
+    <Navbar />
+    <h1>Portfolio นายสิริพัชร์ โคตรศรี</h1> 
     </div>
   );
 }
